@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Heart, Instagram, Youtube, Mail } from "lucide-react";
+import { Heart, Instagram, Youtube, Mail, Phone } from "lucide-react";
 import logo from "@/assets/logo-pink.png";
 
 const footerLinks = {
@@ -20,6 +20,7 @@ const socialLinks = [
   { href: "https://www.instagram.com/yourbuilderbestie", icon: Instagram, label: "Instagram" },
   { href: "https://www.youtube.com/@yourbuilderbestie", icon: Youtube, label: "YouTube" },
   { href: "mailto:jenna@yourbuilderbestie.com", icon: Mail, label: "Email" },
+  { href: "tel:+18053145798", icon: Phone, label: "Phone" },
 ];
 
 export function Footer() {
